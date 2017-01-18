@@ -1,4 +1,4 @@
-function clickMenuButton() {	
+ï»¿function clickMenuButton() {	
 	var nav = document.getElementById("nav-section");
 	var menuButton = document.getElementById("menu-button");
 	// Menu
@@ -37,10 +37,10 @@ function generateLangHref(langTo){
 var clickContactMe= function f1() {
   $('#main-container').toggleClass('disappear');
   $('#contact-container').toggleClass('disappear');
-  if ($('#contact-me-li').text() === 'Ápµ¸§Ú') {
-    $('#contact-me-li').text('ªğ¦^');
+  if ($('#contact-me-li').text() === 'è¯çµ¡æˆ‘') {
+    $('#contact-me-li').text('è¿”å›');
   } else {
-    $('#contact-me-li').text('Ápµ¸§Ú');
+    $('#contact-me-li').text('è¯çµ¡æˆ‘');
   }
   var nav = document.getElementById("nav-section");
 	var menuButton = document.getElementById("menu-button");
